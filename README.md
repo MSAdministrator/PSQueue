@@ -1,7 +1,7 @@
 # PSQueue
 A PowerShell Class that uses Stacks and Queues to process/hold information
 
-<img src="https://ci.appveyor.com/api/projects/status/2ynabeewnawj8ue6?svg=true" alt="Project Badge" width="300">
+<img src="https://ci.appveyor.com/api/projects/status/2ynabeewnawj8ue6/branch/master?svg=true" alt="Project Badge" width="300">
 
 ## Synopsis
 This PowerShell Class currently creates a Queue (FIFO) system from 2 Stacks.  You have the ability to currently submit/add items to the Enqueue and retreive the submitted data from the Dequeue.
