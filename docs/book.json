@@ -1,0 +1,10 @@
+{
+    "title": "PSQueue",
+    "description": "This PowerShell Class currently creates a Queue (FIFO) system from 2 Stacks.  You have the ability to currently submit/add items to the Enqueue and retreive the submitted data from the Dequeue.",
+    "author": "Josh Rickard",
+    "language": "en",
+    "plugins": [
+        "html5-video",
+        "expandable-chapters-small"
+    ]
+}
