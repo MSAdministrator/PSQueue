@@ -1,6 +1,8 @@
 # PSQueue
 A PowerShell Class that uses Stacks and Queues to process/hold information
 
+<img src="https://ci.appveyor.com/api/projects/status/2ynabeewnawj8ue6?svg=true" alt="Project Badge" width="300">
+
 ## Synopsis
 This PowerShell Class currently creates a Queue (FIFO) system from 2 Stacks.  You have the ability to currently submit/add items to the Enqueue and retreive the submitted data from the Dequeue.
 
@@ -14,6 +16,7 @@ This Class can be used directly by loading the 'PSQueue.ps1' file in the 'Class'
 
 ## Using PSQueue Class directly
 You can call the PSQueue class directly using the following example:
+
 ```powershell
 # Create a new queue
 $NewQueue = [PSQueue]::new()
@@ -23,7 +26,6 @@ $NewQueue.Add([PSCustomObject]$Object)
 
 # Remove first item from the Queue
 $FirstQueueItem = $NewQueue.Remove()
-
 ```
 
 ## Notes
@@ -32,39 +34,4 @@ $FirstQueueItem = $NewQueue.Remove()
    Created by: Josh Rickard
    Created Date: 01/09/2018
 ```
-## Functionality
-This PowerShell Class currently creates a Queue (FIFO) system from 2 Stacks.  You have the ability to currently submit/add items to the Enqueue and retreive the submitted data from the Dequeue.
-
-
-
-
-
-
-
-
-
-
-
-
-# PSQueue
-A PowerShell Class that uses Stacks and Queues to process/hold information
-
-## Overview
-This PowerShell Class currently creates a Queue (FIFO) system from 2 Stacks.  You have the ability to currently submit/add items to the Enqueue and retreive the submitted data from the Dequeue.
-
-## Usage
-
-Adding items to the Enqueue:
-```
-$newEnqueue = [PSQueue]::new()
-$newEnqueue.Add($somedata)
-```powershell
-
-Removing data from Dequeue:
-```
-$newEnqueue.Remove()
-```powershell
-
-# NOTE
-
 ## This is still a work in progress
